@@ -37,7 +37,7 @@ The dataset was sourced from the [TidyTuesday project](https://github.com/rforda
 
 ---
 
-## 📊 Exploratory Analysis
+## Exploratory Analysis
 
 - **Word Frequency:** Identified and visualized the most used words
 - **Word Cloud:** Illustrated dominant themes visually
