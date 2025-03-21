@@ -1,6 +1,6 @@
 # Hamlet NLP Exploratory Data Analysis
 
-This project explores and analyzes Shakespeare's *Hamlet* using Natural Language Processing (NLP) techniques. The analysis was conducted as part of a data science challenge focused on free-text datasets and Large Language Models (LLMs).
+This project explores and analyzes Shakespeare's *Hamlet* using Natural Language Processing (NLP) techniques. 
 
 ---
 
