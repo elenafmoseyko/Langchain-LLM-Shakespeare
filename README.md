@@ -76,15 +76,6 @@ The file `hamlet_paraphrased.csv` includes a `paraphrased` column with modern En
 
 ---
 
-## Future Additions
-
-- [ ] Add interactive Streamlit app  
-- [ ] Refine prompt engineering for literary nuance  
-- [ ] Evaluate across different LLMs (phi, mistral, llama2)  
-- [ ] Visualize semantic shifts over scenes and acts  
-
----
-
 ## Let’s Connect
 
 I'm exploring the intersection of **AI, interpretability, and literature**.  
