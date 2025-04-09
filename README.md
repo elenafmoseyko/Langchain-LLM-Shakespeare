@@ -65,14 +65,19 @@ The file `hamlet_paraphrased.csv` includes a `paraphrased` column with modern En
 
 ## Files in This Repo
 
-| File Name | Description |
-|-----------|-------------|
-| `hamlet.csv` | Original dataset |
-| `hamlet_paraphrased.csv` | Paraphrased modern English output |
-| `hamlet_topics_labeled.csv` | Topic IDs with human-readable labels |
-| `shakespeare_paraphrasing_with_langchain.ipynb` | Main notebook |
-| `langchain_pipeline_diagram.png` | Diagram showing full pipeline |
-| `README.md` | This file |
+Files in This Repo
+
+| File Name                             | Description                                             |
+|--------------------------------------|---------------------------------------------------------|
+| `hamlet.csv`                         | Original dataset                                        |
+| `hamlet_paraphrased.csv`            | Paraphrased modern English output                       |
+| `topics_labeled.csv`                | Topic IDs with human-readable labels                   |
+| `langchain_hamlet_paraphrasing.ipynb` | Notebook that runs LangChain + Ollama pipeline         |
+| `shakespeare_paraphrasing_with_langchain.ipynb` | Full pipeline with paraphrasing and NLP analysis        |
+| `langchain_pipeline_diagram.png`    | Visual diagram of the LangChain + NLP architecture      |
+| `README.md`                         | This file                                               |
+
+---
 
 ---
 
