@@ -45,12 +45,12 @@ The file `hamlet_paraphrased.csv` includes a `paraphrased` column with modern En
 
 ## NLP + LLM Analysis
 
-- ✅ Paraphrasing: Original → Modern English  
-- ✅ Sentiment comparison: Original vs paraphrased  
-- ✅ Topic modeling: LDA and BERTopic  
-- ✅ Character-wise emotion profiling  
-- ✅ Lexical analysis (vocab size, sentence complexity)  
-- ✅ Line-by-line visual comparison
+- Paraphrasing: Original → Modern English  
+- Sentiment comparison: Original vs paraphrased  
+- Topic modeling: LDA and BERTopic  
+- Character-wise emotion profiling  
+- Lexical analysis (vocab size, sentence complexity)  
+- Line-by-line visual comparison
 
 ---
 
