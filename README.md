@@ -69,7 +69,7 @@ The file `hamlet_paraphrased.csv` includes a `paraphrased` column with modern En
 |-----------|-------------|
 | `hamlet.csv` | Original dataset |
 | `hamlet_paraphrased.csv` | Paraphrased modern English output |
-| `topics_labeled.csv` | Topic IDs with human-readable labels |
+| `hamlet_topics_labeled.csv` | Topic IDs with human-readable labels |
 | `shakespeare_paraphrasing_with_langchain.ipynb` | Main notebook |
 | `langchain_pipeline_diagram.png` | Diagram showing full pipeline |
 | `README.md` | This file |
