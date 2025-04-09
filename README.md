@@ -1,83 +1,93 @@
-Hamlet NLP + LLM Paraphrasing Analysis
-This project explores how large language models (LLMs) interpret and rephrase Shakespeare's Hamlet using LangChain, Ollama, and classic NLP techniques.
+# Hamlet NLP + LLM Paraphrasing Analysis
+
+This project explores how large language models (LLMs) interpret and rephrase Shakespeare's *Hamlet* using **LangChain**, **Ollama**, and classic **NLP techniques**.  
 We paraphrase the original lines into natural modern English, then run sentiment analysis, topic modeling, and lexical comparisons between the original and AI-generated versions.
 
-Dataset
-The original dataset comes from the TidyTuesday project, featuring line-by-line Hamlet dialogue, including:
+---
 
-act
+## Dataset
 
-scene
+The original dataset comes from the [TidyTuesday project](https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-09-17), featuring line-by-line Hamlet dialogue, including:
 
-character
+- `act`  
+- `scene`  
+- `character`  
+- `dialogue`  
+- `line_number`  
 
-dialogue
+The file `hamlet_paraphrased.csv` includes a `paraphrased` column with modern English rewrites.
 
-line_number
+---
 
-The file hamlet_paraphrased.csv contains an additional paraphrased column with AI-rewritten lines.
+## Pipeline Overview
 
-Pipeline Overview
-🔹 Input: Shakespearean dialogue from hamlet.csv
-🔹 LangChain PromptTemplate: Formats the prompt
-🔹 Ollama: Runs a local LLM (e.g., mistral, phi)
-🔹 Output: Paraphrased modern English
-🔹 Analysis: NLP tools used for comparison
+**Input** → Shakespearean dialogue from `hamlet.csv`  
+**LangChain PromptTemplate** → Prompt formatting  
+**Ollama** → Local LLMs (`mistral`, `phi`)  
+**Output** → `paraphrased` lines  
+**Analysis** → Sentiment, topics, emotion arcs
 
-Diagram available in repo: langchain_pipeline_diagram.png
+> 🔗 See `langchain_pipeline_diagram.png` for full flow
 
-Technologies & Libraries
-LangChain + Ollama – Prompt orchestration + local LLM inference
+---
 
-Python – Core programming language
+## Technologies & Libraries
 
-pandas, numpy – Data manipulation
+- **LangChain + Ollama** – Prompt orchestration & local inference  
+- `pandas`, `numpy` – Data manipulation  
+- `matplotlib`, `seaborn` – Visualization  
+- `nltk`, `textblob` – Sentiment + tokenization  
+- `wordcloud` – Frequency visualization  
+- `gensim`, `bertopic` – Topic modeling (LDA + transformer-based)  
+- `transformers` – T5, BART for baseline comparison  
 
-matplotlib, seaborn – Visualization
+---
 
-nltk, textblob – Text cleaning, sentiment analysis
+## NLP + LLM Analysis
 
-wordcloud – Word frequency visualizations
+- ✅ Paraphrasing: Original → Modern English  
+- ✅ Sentiment comparison: Original vs paraphrased  
+- ✅ Topic modeling: LDA and BERTopic  
+- ✅ Character-wise emotion profiling  
+- ✅ Lexical analysis (vocab size, sentence complexity)  
+- ✅ Line-by-line visual comparison
 
-gensim, bertopic – Topic modeling (LDA + transformer-based)
+---
 
-transformers (T5, BART) – Baseline summarization and paraphrasing
+## Key Insights
 
-NLP & LLM Analysis
-Paraphrasing with LangChain + Ollama LLMs (offline)
+- **Tone Shift**: Emotions were softened in paraphrasing  
+- **Thematic Change**: Central motifs remained, but nuance sometimes lost  
+- **Character Shift**: Supporting roles became simpler in tone  
+- **LLM Performance**: Fast and private inference with Ollama models
 
-Sentiment Analysis comparing original vs paraphrased (TextBlob)
+---
 
-Topic Modeling with both LDA and BERTopic
+## Files in This Repo
 
-Lexical Complexity: Sentence length, word frequency, simplification
+| File Name | Description |
+|-----------|-------------|
+| `hamlet.csv` | Original dataset |
+| `hamlet_paraphrased.csv` | Paraphrased modern English output |
+| `topics_labeled.csv` | Topic IDs with human-readable labels |
+| `shakespeare_paraphrasing_with_langchain.ipynb` | Main notebook |
+| `langchain_pipeline_diagram.png` | Diagram showing full pipeline |
+| `README.md` | This file |
 
-Per-Character Emotion Profiling
+---
 
-Side-by-Side Comparisons of lines pre- and post-paraphrasing
+## Future Additions
 
-Key Insights
-Tone Shifts: The AI reworded emotionally intense lines with milder language.
+- [ ] Add interactive Streamlit app  
+- [ ] Refine prompt engineering for literary nuance  
+- [ ] Evaluate across different LLMs (phi, mistral, llama2)  
+- [ ] Visualize semantic shifts over scenes and acts  
 
-Topic Drift: Key themes (e.g. betrayal, kingship) remained, but some nuance was lost.
+---
 
-Character Rebalancing: Supporting characters lost verbal richness in paraphrasing.
+## Let’s Connect
 
-Performance: Local models via Ollama were fast, private, and surprisingly accurate.
+I'm exploring the intersection of **AI, interpretability, and literature**.  
+If you're working on NLP, LangChain, or AI-assisted content — let's talk!
 
-Files in This Repo
-hamlet.csv – Original dataset
-
-hamlet_paraphrased.csv – With AI-generated modern English lines
-
-topics_labeled.csv – Topic modeling output with human-readable labels
-
-shakespeare_paraphrasing_with_langchain.ipynb – End-to-end LangChain + NLP pipeline
-
-langchain_pipeline_diagram.png – Visual flow of LLM pipeline
-
-README.md – This file
-
-
-
-
+---
