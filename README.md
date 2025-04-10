@@ -36,7 +36,7 @@ This flowchart shows the full paraphrasing pipeline used to convert Shakespearea
 
 ---
 
-### 📂 Notebooks
+### Notebooks
 
 - `langchain_hamlet_paraphrasing.ipynb` – Paraphrasing with LangChain + Ollama
 - `hamlet_paraphrasing_t5.ipynb` – Paraphrasing with Hugging Face T5 Transformer
