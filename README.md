@@ -27,7 +27,12 @@ The file `hamlet_paraphrased.csv` includes a `paraphrased` column with modern En
 **Output** → `paraphrased` lines  
 **Analysis** → Sentiment, topics, emotion arcs
 
-> 🔗 See `langchain_pipeline_diagram.png` for full flow
+## ⚙️ LangChain Pipeline Diagram
+
+This flowchart shows the full paraphrasing pipeline used to convert Shakespearean dialogue into modern English using LangChain and Ollama:
+
+![LangChain Pipeline Diagram](langchain_pipeline_diagram.png)
+
 
 ---
 
