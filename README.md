@@ -36,6 +36,12 @@ This flowchart shows the full paraphrasing pipeline used to convert Shakespearea
 
 ---
 
+### 📂 Notebooks
+
+- `langchain_hamlet_paraphrasing.ipynb` – Paraphrasing with LangChain + Ollama
+- `hamlet_paraphrasing_t5.ipynb` – Paraphrasing with Hugging Face T5 Transformer
+---
+
 ## Technologies & Libraries
 
 - **LangChain + Ollama** – Prompt orchestration & local inference  
@@ -45,6 +51,7 @@ This flowchart shows the full paraphrasing pipeline used to convert Shakespearea
 - `wordcloud` – Frequency visualization  
 - `gensim`, `bertopic` – Topic modeling (LDA + transformer-based)  
 - `transformers` – T5, BART for baseline comparison  
+- Hugging Face `transformers` – Used T5 for comparison to LangChain/Ollama approach
 
 ---
 
@@ -79,7 +86,7 @@ Files in This Repo
 | `topics_labeled.csv`                | Topic IDs with human-readable labels                   |
 | `langchain_hamlet_paraphrasing.ipynb` | Notebook that runs LangChain + Ollama pipeline         |
 | `shakespeare_paraphrasing_with_langchain.ipynb` | Full pipeline with paraphrasing and NLP analysis        |
-| `langchain_pipeline_diagram.png`    | Visual diagram of the LangChain + NLP architecture      |
+| `hamlet_paraphrasing_t5.ipynb`    | Paraphrasing with Hugging Face T5 Transformer     |
 | `README.md`                         | This file                                               |
 
 ---
