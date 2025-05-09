@@ -84,11 +84,3 @@ Files in This Repo
 
 ---
 
----
-
-## Let’s Connect
-
-I'm exploring the intersection of **AI, interpretability, and literature**.  
-If you're working on NLP, LangChain, or AI-assisted content — let's talk!
-
----
